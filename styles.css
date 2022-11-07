@@ -15,10 +15,11 @@ body{
   border:1px solid #000000;
   padding:10px;
   text-decoration:none;
-  color:#00ff40;
+  background:#ff8000;
+  color:#000000;
 }
 
 #links > a:hover{
-  background:#80ffff;
+  background:#00ff00;
   color:#000000;
 }

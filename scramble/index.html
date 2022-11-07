@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="/scramble/styles.css">
+</head>
+
+<body style="background-color:Purple;">
+   <h1 id="pageName"style="background-color:DarkOrange;" >Halloween Scramble</h1>
+  
+  <h2 id="pageRule">Rules</h2>
+
+   <ol id="ruleList">
+  <li>Read scrambled word.</li>
+  <li>Type unscrambled word in box.</li>
+  <li>Press the check button.</li>
+  <li>If you cannot guess word, press the give up button.</li>
+   </ol> 
+
+  <div id="scrambledWord"></div>
+  <div><input type="text" id="myWord"></div>
+  <div><button onclick="check()">Check</button> 
+    <button onclick="giveUp()">Give Up</button></div>
+  
+  <h3>Unscrambled Words</h3>
+
+  <div id="unscrambled"></div>
+  <script src="/scramble/game.js"></script>
+</body>
+
+</html>
