@@ -49,7 +49,7 @@ h1{
 }
 
 #rollButton{
-  background:#80ff00;
+  background:#008040;
   color:#0000ff;
   border:0px;
   display:block;
@@ -98,8 +98,8 @@ h1{
 }
 
 #grandTotalRow{
-  background:#C83E3E;
-  color:#ffffff;
+  background:#008040;
+  color:#000000;
 }
 
 #grandTotalLabel{
