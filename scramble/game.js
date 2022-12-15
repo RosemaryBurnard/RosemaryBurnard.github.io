@@ -60,7 +60,7 @@ let gameOver = false;
 let unscrambles = 0;
 // This is a placeholder. You will need to move code into this funcation as part of the assignment. HINT -- the code you want to move into this function is above. :)
 function nextWord() {
-  const allWords = ["Costumes", "Monster", "Disguise", "Ghost", "Witch", "Pumpkin", "Candle", "Zombie", "Frankenstein", "October", "Scarecrow", "Pirate", "Crow", "Cat", "Broomstick", "Vampire", "Prince", "Princess", "Candy", "Werewolf", "Mask", "Spell", "Goblin", "Ghoul", "Alien", "Mummy", "Spooky", "Creepy", "Slimy", "Fangs", "Blood", "Skeleton", "Graveyard", "Party", "Screaming", "Bats", "Skull", "Wicked", "Scary"];
+  const allWords = ["Cookies", "Snowman", "Tree", "Snow", "Christmas", "Lights", "Wreath", "Santa", "Gifts", "December", "Snowflake", "Frost", "Reindeer", "Sleigh", "Presents", "Festive", "Cold", "Star", "Candycane", "Elves", "Toys", "Red", "Green", "Party", "Feast", "Angels", "Cocoa", "Ice", "Icicle", "Mittens", "Coat", "Gloves", "White", "Goose", "Carolling", "Hat", "Blizzard", "Peaceful", "Stockings"];
   let randomIndex = Math.floor(Math.random() * (allWords.length - 1)); //Don't worry about this math, but it will select a random number between 0 and the last index of the allWords array.
  selectedWord = allWords[randomIndex].toLowerCase() 
  document.getElementById("scrambledWord").innerHTML = selectedWord
